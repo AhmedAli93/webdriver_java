@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11742059-763b-47a0-836e-eddcbcab9d34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HoversPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hover/HoverTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/KeyPressesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/keys/KeysTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
@@ -44,20 +44,7 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HoverTests">
-    <configuration name="BaseTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.BaseTests" />
-      <module name="webdriver_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.KeysTests">
     <configuration name="DropdownTests.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver_java" />
       <extension name="coverage">
@@ -93,17 +80,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KeysTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="login.*" />
+          <option name="PATTERN" value="keys.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="PACKAGE_NAME" value="keys" />
+      <option name="MAIN_CLASS_NAME" value="keys.KeysTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeysTests.testBackSpace" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="keys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="keys" />
+      <option name="MAIN_CLASS_NAME" value="keys.KeysTests" />
+      <option name="METHOD_NAME" value="testBackSpace" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeysTests.testPi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="keys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="keys" />
+      <option name="MAIN_CLASS_NAME" value="keys.KeysTests" />
+      <option name="METHOD_NAME" value="testPi" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,10 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.KeysTests" />
+        <item itemvalue="TestNG.KeysTests.testPi" />
+        <item itemvalue="TestNG.KeysTests.testBackSpace" />
         <item itemvalue="TestNG.HoverTests" />
         <item itemvalue="TestNG.DropdownTests.testSelectOption" />
-        <item itemvalue="TestNG.LoginTests.testSuccessfulLogin" />
-        <item itemvalue="Application.BaseTests" />
       </list>
     </recent_temporary>
   </component>
@@ -138,46 +161,54 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="447" y="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1612325109193" />
-    <state width="1358" height="244" key="GridCell.Tab.0.bottom" timestamp="1612325300626">
+    <state width="1358" height="196" key="GridCell.Tab.0.bottom" timestamp="1614195403196">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1358" height="244" key="GridCell.Tab.0.bottom/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1612325300626" />
+    <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1614195403196" />
+    <state width="1358" height="244" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1612397009837" />
     <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.814/1440.-92.1920.1057@0.23.1440.814" timestamp="1611945983232" />
     <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-92.1920.993@0.23.1440.877" timestamp="1611808193210" />
-    <state width="1358" height="244" key="GridCell.Tab.0.center" timestamp="1612325300625">
+    <state width="1358" height="196" key="GridCell.Tab.0.center" timestamp="1614195403194">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1358" height="244" key="GridCell.Tab.0.center/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1612325300625" />
+    <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1614195403194" />
+    <state width="1358" height="244" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1612397009835" />
     <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.814/1440.-92.1920.1057@0.23.1440.814" timestamp="1611945983231" />
     <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.877/1440.-92.1920.993@0.23.1440.877" timestamp="1611808193209" />
-    <state width="1358" height="244" key="GridCell.Tab.0.left" timestamp="1612325300625">
+    <state width="1358" height="196" key="GridCell.Tab.0.left" timestamp="1614195403192">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1358" height="244" key="GridCell.Tab.0.left/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1612325300625" />
+    <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1614195403192" />
+    <state width="1358" height="244" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1612397009835" />
     <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.814/1440.-92.1920.1057@0.23.1440.814" timestamp="1611945983230" />
     <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.877/1440.-92.1920.993@0.23.1440.877" timestamp="1611808193209" />
-    <state width="1358" height="244" key="GridCell.Tab.0.right" timestamp="1612325300626">
+    <state width="1358" height="196" key="GridCell.Tab.0.right" timestamp="1614195403195">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1358" height="244" key="GridCell.Tab.0.right/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1612325300626" />
+    <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1614195403195" />
+    <state width="1358" height="244" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1612397009836" />
     <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.814/1440.-92.1920.1057@0.23.1440.814" timestamp="1611945983231" />
     <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.877/1440.-92.1920.993@0.23.1440.877" timestamp="1611808193210" />
-    <state width="1358" height="244" key="GridCell.Tab.1.bottom" timestamp="1612325300627">
+    <state width="1358" height="244" key="GridCell.Tab.1.bottom" timestamp="1612397009840">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1358" height="244" key="GridCell.Tab.1.bottom/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1612325300627" />
-    <state width="1358" height="244" key="GridCell.Tab.1.center" timestamp="1612325300627">
+    <state width="1358" height="244" key="GridCell.Tab.1.bottom/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1612327244838" />
+    <state width="1358" height="244" key="GridCell.Tab.1.bottom/0.23.1440.813@0.23.1440.813" timestamp="1612397009840" />
+    <state width="1358" height="244" key="GridCell.Tab.1.center" timestamp="1612397009838">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1358" height="244" key="GridCell.Tab.1.center/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1612325300627" />
-    <state width="1358" height="244" key="GridCell.Tab.1.left" timestamp="1612325300626">
+    <state width="1358" height="244" key="GridCell.Tab.1.center/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1612327244838" />
+    <state width="1358" height="244" key="GridCell.Tab.1.center/0.23.1440.813@0.23.1440.813" timestamp="1612397009838" />
+    <state width="1358" height="244" key="GridCell.Tab.1.left" timestamp="1612397009837">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1358" height="244" key="GridCell.Tab.1.left/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1612325300626" />
-    <state width="1358" height="244" key="GridCell.Tab.1.right" timestamp="1612325300627">
+    <state width="1358" height="244" key="GridCell.Tab.1.left/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1612327244837" />
+    <state width="1358" height="244" key="GridCell.Tab.1.left/0.23.1440.813@0.23.1440.813" timestamp="1612397009837" />
+    <state width="1358" height="244" key="GridCell.Tab.1.right" timestamp="1612397009840">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1358" height="244" key="GridCell.Tab.1.right/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1612325300627" />
+    <state width="1358" height="244" key="GridCell.Tab.1.right/0.23.1440.813/1440.-92.1920.1057@0.23.1440.813" timestamp="1612327244838" />
+    <state width="1358" height="244" key="GridCell.Tab.1.right/0.23.1440.813@0.23.1440.813" timestamp="1612397009840" />
     <state x="190" y="23" key="SettingsEditor" timestamp="1611706901077">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
@@ -186,16 +217,5 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="270" y="177" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.877/1440.-92.1920.993@0.23.1440.877" timestamp="1611808612060" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pages/HoversPage.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
